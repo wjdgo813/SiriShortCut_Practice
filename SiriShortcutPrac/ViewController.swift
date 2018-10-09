@@ -8,6 +8,7 @@
 
 import UIKit
 import Intents
+import IntentsUI
 
 class ViewController: UIViewController {
 
@@ -23,14 +24,36 @@ class ViewController: UIViewController {
         activity.isEligibleForSearch = true
         activity.isEligibleForPrediction = true
         activity.persistentIdentifier = NSUserActivityPersistentIdentifier(stringLiteral: "JHH.SiriShortcutPrac.makeRed")
-        view.userActivity = activity
-        activity.becomeCurrent()
+        activity.suggestedInvocationPhrase = "빨강이 되어보자"
         
-        makeViewRed()
+        
+        let shortcut = INShortcut(userActivity: activity)
+        let vc = INUIAddVoiceShortcutViewController(shortcut: shortcut)
+        vc.delegate = self
+        
+        self.present(vc, animated: true, completion: nil)
+        
+//        activity.becomeCurrent()
     }
+    
     
     func makeViewRed(){
         view.backgroundColor = .red
     }
 }
 
+
+
+extension ViewController: INUIAddVoiceShortcutViewControllerDelegate {
+    @available(iOS 12.0, *)
+    func addVoiceShortcutViewController(_ controller: INUIAddVoiceShortcutViewController, didFinishWith voiceShortcut: INVoiceShortcut?, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    @available(iOS 12.0, *)
+    func addVoiceShortcutViewControllerDidCancel(_ controller: INUIAddVoiceShortcutViewController) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    
+}

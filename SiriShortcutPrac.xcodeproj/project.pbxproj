@@ -453,7 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SiriShortcutPrac/SiriShortcutPrac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E3FXZ574H3;
+				DEVELOPMENT_TEAM = 594TR8CRP9;
 				INFOPLIST_FILE = SiriShortcutPrac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,7 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SiriShortcutPrac/SiriShortcutPrac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E3FXZ574H3;
+				DEVELOPMENT_TEAM = 594TR8CRP9;
 				INFOPLIST_FILE = SiriShortcutPrac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

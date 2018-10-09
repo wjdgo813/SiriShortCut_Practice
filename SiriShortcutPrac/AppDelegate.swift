@@ -45,6 +45,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let viewController = window?.rootViewController as! ViewController
         viewController.makeViewRed()
         
+        
+        if userActivity.activityType == "JHH.SiriShortcutPrac.makeRed",
+            let trackName = userActivity.userInfo?["color"] as? String{
+            print("my key : \(trackName)")
+            
+            return true
+        }
         return true
     }
 
