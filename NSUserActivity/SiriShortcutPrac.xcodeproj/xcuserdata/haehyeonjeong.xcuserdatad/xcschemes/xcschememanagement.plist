@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SiriShortcutPrac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SiriShortcutPracExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SiriShortcutPracExtensionUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A16A056F215E625E00AAF4FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A16A0583215E626000AAF4FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A16A058E215E626000AAF4FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A171BB742174C2A700A6AFBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A171BB7D2174C2A800A6AFBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -42,13 +42,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
-        let viewController = window?.rootViewController as! ViewController
-        viewController.makeViewRed()
-        
         
         if userActivity.activityType == "JHH.SiriShortcutPrac.makeRed",
             let trackName = userActivity.userInfo?["color"] as? String{
             print("my key : \(trackName)")
+            
+            let viewController = window?.rootViewController as! ViewController
+            viewController.makeViewRed()
             
             return true
         }
