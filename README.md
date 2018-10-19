@@ -1,5 +1,5 @@
 # SiriShortCut_Practice
 Sirikit을 이용한 shortcut
 
-NSUserActivity - ㅇㅇㅋ \n
+NSUserActivity - ㅇㅇㅋ
 IntentExtension - UI까지 적용
